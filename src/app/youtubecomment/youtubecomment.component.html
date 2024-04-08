@@ -1,0 +1,14 @@
+<p>youtubecomment works!</p>
+<p>use list with ngFor for making list of Comment</p>
+<p>but not prefer subject and Behavior subject</p>
+<div>
+  <!-- Random User Comment:<strong>{{userInput.value}}</strong> -->
+  Random User Comment:<strong>{{userComment}}</strong>
+  <br><br>
+  <input  class="form-control" type="text" placeholder="Enter Comment Here" #userInput>
+</div>
+<div class="d-grid gap-2 col-6 mx-auto">
+  <button class="btn btn-primary" type="button" (click)="Comment(userInput)" >Comment</button>
+  <!-- if above not work then -->
+  <!-- <button class="btn btn-primary" type="button" (click)="Comment(userInput.value)" >Comment</button> -->
+</div>

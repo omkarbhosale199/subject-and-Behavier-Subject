@@ -1,0 +1,13 @@
+<!-- <p>If we want to send the data from one component to another component without sibling(relationship)</p>
+<p> Ans: We can use special kind of observable i.e Subject and Behavior Subject with the help of Service.</p>
+<p>Subject: A Subject` is special type of Observable that allows value to be multicasted to many Observers</p> -->
+
+<div class="box">
+  <!-- step 2 -->
+  <!-- Random User Comment:<strong>{{userInput.value}}</strong> -->
+  Random User Comment:<strong>{{uziName}}</strong>
+  <br><br>
+  <input  class="form-control" type="text" placeholder="Enter Comment Here" #userName>
+  <button class="btn btn-primary mt-2" type="button" (click)="updateUsername(userName)" >update</button>
+</div>
+
